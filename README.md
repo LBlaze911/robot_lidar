@@ -48,8 +48,8 @@ Welcome to the repository for our final-year engineering project! This project i
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/robot_project.git
-   cd robot_project
+   git clone https://github.com/LBlaze911/robot_lidar.git
+   cd robot_lidar
    ```
 2. Install dependencies:
    ```bash
@@ -63,7 +63,7 @@ Welcome to the repository for our final-year engineering project! This project i
    ```
 4. Launch the simulation:
    ```bash
-   roslaunch robot_project simulation.launch
+   roslaunch robot_lidar simulation.launch
    ```
 
 ---
@@ -81,14 +81,14 @@ Welcome to the repository for our final-year engineering project! This project i
 - Connect the LiDAR sensor and camera to the Raspberry Pi.
 - Run the onboard processing node:
   ```bash
-  roslaunch robot_project hardware.launch
+  roslaunch robot_lidar hardware.launch
   ```
-
+  
 ---
 
 ## Project Structure
 ```
-robot_project/
+robot_lidar/
 ├── src/
 │   ├── robot_control/
 │   ├── obstacle_detection/
