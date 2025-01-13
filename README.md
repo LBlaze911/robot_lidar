@@ -113,3 +113,12 @@ robot_lidar/
 
 Thank you for visiting this repository and showing interest in my project!
 
+
+# Lidar
+
+sudo chmod 777 /dev/ttyUSB0
+
+cd src/rplidar_ros
+source scripts/create_udev_rules.sh
+
+ros2 launch rplidar_ros view_rplidar_a1_launch.py
