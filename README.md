@@ -89,18 +89,19 @@ Welcome to the repository for our final-year engineering project! This project i
 ## Project Structure
 ```
 robot_lidar/
-├── src/
-│   ├── robot_control/
-│   ├── obstacle_detection/
-│   ├── lidar_processing/
-│   └── camera_processing/
+├── description/
+│   ├── robot.urdf.xacro
+│   ├── robot_core.xacro
+│   ├── inertial_macros.xacro
+│   ├── lidar.xacro
+│   └── gazebo_control.xacro
 ├── launch/
-│   ├── simulation.launch
-│   ├── gazebo.launch
-│   └── hardware.launch
-└── urdf/
-    └── robot_model.urdf
-```
+│   ├── rsp.launch.py
+│   └── rplidar.launch.py
+└── worlds/
+│   └── emplty.world
+├── CMakeLists.txt
+└── packages.xml
 
 ---
 
